@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/*css reset*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+
+body{
+	background-color: #f3f3f3;
+}
+.layout{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header_bar{
+	height: 63px;
+	background-color: #44596d;
+}
+.logo{
+	float: left;
+	margin: 12px 0 0 50px;
+}
+.content_box{
+	padding-top: 4px;
+}
+.banner_box{
+	height: 342px;
+	background: url(../images/banner.jpg) no-repeat top center;
+	position: relative;
+}
+.bat{
+	display: block;
+	width: 494px;
+	height: 131px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin:-65px 0 0 -247px;
+	background: url(../images/bat.png) no-repeat;
+}
+.art_list{
+	width: 850px;
+	margin: 26px auto 0;
+	height: 681px;
+	overflow-y: auto;
+	padding: 0 0 0 5px;
+}
+.art_list li{
+	float: left;
+	width: 100%;
+	height: 225px;
+	border-top: 1px solid #d2d2d2;
+}
+.art_list li .inner{
+	border-top: 1px solid #fff;
+}
+.art_list li .pic{
+	float: left;
+	width: 218px;
+	height: 157px;
+	padding: 6px;
+	box-shadow: 0 0 5px #333;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	margin: 28px 25px 0 0;
+}
+.art_list li .intro{
+	float: left;
+	width: 560px;
+	
+}
+.art_list li .intro h2{
+	line-height: 58px;
+	font-size: 22px;
+	margin-top: 10px;
+}
+.art_list li .intro p{
+	line-height: 30px;
+}
+.footer_bar{
+	height: 74px;
+	background-color: #44596d;
+}
+.contact{
+	padding-top: 20px;
+}
+.contact li{
+	float: left;
+	margin-right: 30px;
+}
+.contact li a{
+	display: block;
+	padding-left: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+.contact li .address{
+	background: url(../images/address.png) no-repeat 0 4px;
+}
+.contact li .phone{
+	background: url(../images/phone.png) no-repeat 0 4px;
+	padding-left: 13px;
+}
+.contact li .email{
+	background: url(../images/email.png) no-repeat 0 6px;
+	padding-left: 17px;
+}
+
+
+
+
+/*details css*/
+.details{
+	width: 820px;
+	height: 750px;
+	margin: 26px auto;
+	border-top: 1px solid #d2d2d2;
+	padding-top: 26px;
+}
+.details .left{
+	width: 220px;
+	height: 570px;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+.download_btn{
+	display: block;
+	height: 38px;
+	width: 188px;
+	line-height: 38px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	background-color: #2eb398;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.app_item {
+	margin-top: 10px;
+}
+.app_item li{
+	line-height: 34px;
+}
+.details .right{
+	float: right;
+	width: 575px;
+}
+.details .right .pics{
+	height: 260px;
+	width: 570px;
+	border-bottom: 1px solid #ccc;
+}
+.details .right .pics li{
+	float: left;
+	margin-right: 4px;
+}
+
+.details .right .des h2{
+	margin-top: 20px;
+	line-height: 50px;
+	font-size: 24px;
+}
+.details .right .des p{
+	line-height:30px;
+}
